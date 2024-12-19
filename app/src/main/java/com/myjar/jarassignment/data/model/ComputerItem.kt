@@ -12,12 +12,12 @@ data class ItemData(
     val color: String? = null,
     val capacity: String? = null,
     @SerializedName("price") val price: Double? = null,
-    @SerializedName("capacity GB") val capacityGB: Int? = null,
-    @SerializedName("Screen size") val screenSize: Double? = null,
-    @SerializedName("Description") val description: String? = null,
-    @SerializedName("Generation") val generation: String? = null,
-    @SerializedName("Strap Colour") val strapColour: String? = null,
-    @SerializedName("Case Size") val caseSize: String? = null,
-    @SerializedName("CPU model") val cpuModel: String? = null,
-    @SerializedName("Hard disk size") val hardDiskSize: String? = null
+    @SerializedName("capacityGB") val capacityGB: Int? = null,
+    @SerializedName("screenSize") val screenSize: Double? = null,
+    @SerializedName("description") val description: String? = null,
+    @SerializedName("generation") val generation: String? = null,
+    @SerializedName("strapColour") val strapColour: String? = null,
+    @SerializedName("caseSize") val caseSize: String? = null,
+    @SerializedName("cpuModel") val cpuModel: String? = null,
+    @SerializedName("hardDiskSize") val hardDiskSize: String? = null
 )
